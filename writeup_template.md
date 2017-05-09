@@ -12,6 +12,9 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./examples/grayscale.jpg "mask"
+[image1]: ./examples/grayscale.jpg "Blur"
+[image1]: ./examples/grayscale.jpg "edge"
 
 ---
 
@@ -19,7 +22,8 @@ The goals / steps of this project are the following:
 
 ###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I did the following steps:
+
 1.convert image to grayscale
 2.convert image to hsv and filter yellow,white regions using a mask
 3.apply mask on grayscale image
