@@ -7,12 +7,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./test_output/grayscale.png "Grayscale"
-[image2]: ./test_output/Hsv_filter.png "mask"
-[image3]: ./test_output/Blur_Gray.png "Blur"
-[image4]: ./test_output/Canny.png "edge"
-[image5]: ./test_output/out_solidWhiteCurve.jpg "test_output"
-[image6]: ./test_output/Out.png "All"
+[image1]: ./test-output/grayscale.png "Grayscale"
+[image2]: ./test-output/Hsv_filter.png "mask"
+[image3]: ./test-output/Blur_Gray.png "Blur"
+[image4]: ./test-output/Canny.png "edge"
+[image5]: ./test-output/out_solidWhiteCurve.jpg "test_output"
+[image6]: ./test-output/Out.png "All"
 
 ---
 
