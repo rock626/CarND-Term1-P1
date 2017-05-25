@@ -7,7 +7,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./test-output/grayscale.png "Grayscale"
+[image1]: ./test-output/Grayscale.png "Grayscale"
 [image2]: ./test-output/Hsv_filter.png "mask"
 [image3]: ./test-output/Blur_Gray.png "Blur"
 [image4]: ./test-output/Canny.png "edge"
@@ -18,28 +18,40 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
-
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I did the following steps:
 
-1.convert image to grayscale
+1.Convert image to grayscale
 ![alt text][image1]
-2.convert image to hsv and filter yellow,white regions using a mask
-3.apply mask on grayscale image
+
+
+2.Convert image to hsv and filter yellow,white regions using a mask
+
+3.Apply mask on grayscale image
 ![alt text][image2]
-4.apply gaussian blur 
+
+
+4.Apply gaussian blur 
 ![alt text][image3]
-5.apply canny edge detection using thresholds
+
+
+5.Apply canny edge detection using thresholds
 ![alt text][image4]
-6.draw hough lines by specifing region of interest and hough transform parameters
-7.use weighted_img to draw a transparent line
+
+
+6.Draw hough lines by specifing region of interest and hough transform parameters
+
+7.Use weighted_img to draw a transparent line
 ![alt text][image5]
+
 
 For all test images, here is the output after passing through the pipeline:
 ![alt text][image6]
 
+
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by:
-	1. calculate slope and use it differentiate between left and right lanes
+	
+	1. calculate slope and use it differentiate between left and right lane 
+	
 	2. use 'polyfit' function to extrapolate left and right lanes
 
 ### 2. Identify potential shortcomings with your current pipeline
